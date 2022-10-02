@@ -9,5 +9,42 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-##1. Solution to homework 1 Q6.
+##1. Solution to homework 1 Q1.
+Define supervised and unsupervised learning. What are the difference(s) between them?
+
+- Supervised learning is learning the model for data by using input variables(predictors) and output variables (Y). According to lecture, we can do prediction, estimation, model selection and inference by applying supervised learning. Generally, we do regression problem and classification problem with supervised learning.
+- Unsupervised learning only have input variables and no output variables. One main task to do is clustering. Therefore, unsupervised learning explores the structure of raw data and there's no correct output value to examine the model.
+- The major difference between supervised learning and unsupervised learning is the answer key. In supervised learning, we intervene with the model by giving training examples with output values, while we only give unknown data in unsupervised learning. In short, we teach computer using data in supervised learning while computer learns data by itself in unsupervised learning.
+
+##2. Solution to homework 1 Q2.
+Explain the difference between a regression model and a classification model, specifically in the context of machine learning.
+
+- A regression model maps input variables to output variables so that in the future any new input variables can be used to predict output variables. They are generally continuous function, A classification model takes input variables and classify them according to certain criteria. The output is generally discrete. For instance 0 (don't pass the exam), 1 (pass the exam). 
+
+##3. Solution to homework 1 Q3.
+Name two commonly used metrics for regression ML problems. Name two commonly used metrics for classification ML problems.
+
+-Regression ML problem: Mean Squared Error (MSE), accuracy
+-Classification ML problem: Precision, F1 score
+
+##4. Solution to homework 1 Q4.
+As discussed, statistical models can be used for different purposes. These purposes can generally be classified into the following three categories. Provide a brief description of each.
+
+Descriptive models:
+
+Inferential models:
+
+Predictive models:
+
+
+
+
+
+
+
+
+
+
+
+
 
