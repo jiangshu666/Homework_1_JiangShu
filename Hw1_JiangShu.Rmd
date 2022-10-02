@@ -1,0 +1,13 @@
+---
+title: "Hw1_JiangShu"
+author: "JIANG SHU"
+date: "2022-10-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##1. Solution to homework 1 Q6.
+
