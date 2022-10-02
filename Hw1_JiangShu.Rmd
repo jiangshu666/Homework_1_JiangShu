@@ -30,12 +30,37 @@ Name two commonly used metrics for regression ML problems. Name two commonly use
 ##4. Solution to homework 1 Q4.
 As discussed, statistical models can be used for different purposes. These purposes can generally be classified into the following three categories. Provide a brief description of each.
 
-Descriptive models:
+(According to lecture)
+Descriptive models: Present data by using appropriate models to show trend. 
 
-Inferential models:
+Inferential models:  Learn the parameter that affects result. Test hypothesis relationship.
 
-Predictive models:
+Predictive models: Predict future data points by using historical data. Not on hypothesis tests.
 
+##5. Solution to homework 1 Q5.
+
+-Define mechanistic. Define empirically-driven. How do these model types differ? How are they similar?
+
+Mechanistic model proposes a function f to predict the event we are studying while empirically-driven model uses observations to derive a function/theory about the relationship between input and output. We can add parameters in mechanistic model and they won't match the unknown true function. Empirically-driven model requires a large amount of examples to derive the relation. They are both predictive models and they both might subject to the problem of over fitting. 
+
+-In general, is a mechanistic or empirically-driven model easier to understand? Explain your choice.
+
+I would say a mechanistic model is easier to understand. We can add parameters in the process of deciding relationship. Also, we determine the formula at the beginning so we have a better idea of what's going on. However, empirically-driven model looks more accurate when we have a large amount of observations, it's just we are harder to understand the function it derives. 
+
+-Describe how the bias-variance trade off is related to the use of mechanistic or empirically-driven models.
+
+A mechanistic model is more general, which also mean it has higher bias and low variance. An empirically-driven model is more specific to the dataset, which means it has lower bias and higher variance. When we are predicting the new outputs, the model with higher complexity(empirically-driven) might perform bad due to overfitting problem. While mechanistic model might perform better on new data, it might have the problem of underfitting. 
+
+
+##6. Solution to homework 1 Q6.
+
+-A political candidate’s campaign has collected some detailed voter history data from their constituents. The campaign is interested in two questions:
+Given a voter’s profile/data, how likely is it that they will vote in favor of the candidate?
+How would a voter’s likelihood of support for the candidate change if they had personal contact with the candidate? Classify each question as either predictive or inferential. Explain your reasoning for each.
+
+The first question is predictive as it tries to predict the decision of a voter by analyzing the voter's profile. The voter hasn't voted, and they are using historical data to predict his/her action, so this is predictive.
+
+The second question is inferential as it tries to explore the relationship between predictors and response variable. This is essentially testing relationship so it's inferential.
 
 
 
