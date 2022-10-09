@@ -141,5 +141,5 @@ cyl is also negatively related to cty and hwy since more cylinders would simply 
 cty is positively correlated to hwy since a higher hwy would also means a higher cty.
 One thing that surprises me is the correlation between cty and hwy seems really linear. 
 
-# more4
+
 
